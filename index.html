@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Patient Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MyHealth Portal 🏥</div>
+        <button onclick="activateEmergency()" class="btn-emergency">⚠️ EMERGENCY ACCESS</button>
+    </nav>
+
+    <div class="container">
+        <header class="dashboard-header">
+            <h1>Patient Dashboard</h1>
+            <p>Welcome, John Doe. Manage your secure medical history below.</p>
+        </header>
+
+        <div class="upload-section">
+            <h3>Add New Record</h3>
+            <p>Import records from other hospitals (JSON/XML/CSV)</p>
+            <input type="file" id="fileInput">
+            <button onclick="simulateUpload()" class="btn-primary">Upload & Decrypt</button>
+        </div>
+
+        <div class="timeline-section">
+            <h2>Medical History Timeline</h2>
+            <ul id="record-list">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

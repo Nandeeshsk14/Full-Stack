@@ -1,0 +1,106 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    transition: background-color 0.5s; /* Smooth transition for emergency mode */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-emergency {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #c0392b;
+}
+
+.btn-emergency:hover {
+    background-color: #c0392b;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Upload Section */
+.upload-section {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px dashed #bdc3c7;
+}
+
+/* Timeline List */
+#record-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.record-card {
+    border-left: 5px solid #3498db;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-left: 5px solid #3498db; /* Blue line for timeline effect */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.record-info h4 {
+    margin: 0 0 5px 0;
+}
+
+.record-date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Privacy Status Styles */
+.status-locked {
+    color: #e67e22; /* Orange for locked */
+    font-weight: bold;
+}
+
+.status-unlocked {
+    color: #27ae60; /* Green for accessible */
+    font-weight: bold;
+}
