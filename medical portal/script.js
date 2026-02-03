@@ -1,4 +1,4 @@
-// --- 1. MOCK DATABASE (Beginner way to store data) ---
+
 // We store medical records in a simple list (Array of Objects)
 let medicalRecords = [
     {
@@ -130,3 +130,4 @@ function activateEmergency() {
 
 // Run the render function when page loads
 renderRecords();
+
