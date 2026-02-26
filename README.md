@@ -1,18 +1,18 @@
-# [cite_start]Secure Patient Medical Record Portal [cite: 1]
+#Secure Patient Medical Record Portal 
 
 ## Description
-[cite_start]This project is a patient-centric web application designed to help individuals securely manage and share their medical records across hospitals while maintaining full ownership and privacy of their data[cite: 8]. [cite_start]It features a dashboard with a chronological medical history timeline [cite: 13] [cite_start]and relies on consent-based access control[cite: 9]. [cite_start]Additionally, it includes an explicit, time-bound emergency access mode[cite: 28, 32].
+This project is a patient-centric web application designed to help individuals securely manage and share their medical records across hospitals while maintaining full ownership and privacy of their data.It features a dashboard with a chronological medical history timeline and relies on consent-based access control .Additionally, it includes an explicit, time-bound emergency access mode
 
 ## Core Features
-* [cite_start]**Patient Dashboard:** A clean and trustworthy patient dashboard [cite: 12] [cite_start]that displays a chronological medical history timeline[cite: 13].
-* [cite_start]**Data Privacy (Conceptual):** The UI visually reflects encrypted data status and access permissions[cite: 16, 20, 21]. [cite_start]The platform relies entirely on consent-based access control[cite: 9].
-* [cite_start]**Interoperability Awareness:** Simulates the process of importing medical records from different hospitals[cite: 24, 25].
-* [cite_start]**Emergency Access:** Provides an Emergency Access option for critical situations [cite: 28] [cite_start]that is strictly time-bound[cite: 32].
+* Patient Dashboard: A clean and trustworthy patient dashboardthat displays a chronological medical history timeline
+* Data Privacy (Conceptual): The UI visually reflects encrypted data status and access permissions platform relies entirely on consent-based access control
+* Interoperability Awareness: Simulates the process of importing medical records from different hospitals.
+* Emergency Access:Provides an Emergency Access option for critical situations that is strictly time-bound
 
 ## Tech Stack
-* **HTML5:** Page structure and layout.
-* **CSS3:** Styling and visual feedback (e.g., color changes for emergency mode).
-* **Vanilla JavaScript:** DOM manipulation, simulation of data decryption, and timer logic for emergency access.
+* HTML5:Page structure and layout.
+* CSS3: Styling and visual feedback (e.g., color changes for emergency mode).
+* Vanilla JavaScript:DOM manipulation, simulation of data decryption, and timer logic for emergency access.
 
 ## How to Run This Project
 1. Clone or download this repository to your local machine.
